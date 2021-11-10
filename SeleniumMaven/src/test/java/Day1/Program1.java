@@ -80,7 +80,7 @@ public class Program1 {
 
             Map<String, List<Region>> locRegions5 = eyes.locate(VisualLocator.names(Collections.singletonList("log-in")).first());
 
-
+			System.out.println("Change made");
 
 
             System.out.println(driver.getTitle());
